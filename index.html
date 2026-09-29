@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+  <title>Para você, Momô 💗</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="background"></div>
+
+  <div id="particles"></div>
+
+  <!-- MÚSICA -->
+  <audio id="backgroundMusic"
+         src="assets/musica.mp3"
+         preload="auto"
+         loop>
+  </audio>
+
+
+  <main>
+
+    <!-- ==========================================
+         PRIMEIRA TELA
+    =========================================== -->
+
+    <section id="intro" class="screen active">
+
+      <div class="flower flower-1">🌸</div>
+      <div class="flower flower-2">🌷</div>
+      <div class="flower flower-3">🌸</div>
+      <div class="flower flower-4">🌺</div>
+
+      <div class="card intro-card">
+
+        <div class="small-heart">
+          ♡
+        </div>
+
+        <p class="eyebrow">
+          um pequeno presente
+        </p>
+
+        <h1>
+          Tenho uma<br>
+          coisinha pra você...
+        </h1>
+
+        <p class="hint">
+          💗
+        </p>
+
+        <button id="openBtn">
+          Aperte aqui ✨
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         TELA DA MENSAGEM
+    =========================================== -->
+
+    <section id="message" class="screen">
+
+      <div class="card message-card">
+
+        <div class="top-flower">
+          🌷
+        </div>
+
+        <p class="eyebrow">
+          para você, com carinho
+        </p>
+
+        <h2>
+          Momô 🤍
+        </h2>
+
+        <div id="typedMessage"
+             class="message-text">
+        </div>
+
+        <button id="continueBtn"
+                class="hidden">
+          Continue... 💗
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- ==========================================
+         TELA FINAL
+    =========================================== -->
+
+    <section id="final" class="screen">
+
+      <div class="final-content">
+
+        <div class="final-flower">
+          🌸
+        </div>
+
+        <p class="final-small">
+          e antes de você ir...
+        </p>
+
+        <div class="final-heart">
+          ♡
+        </div>
+
+        <p class="thank-you">
+          Obrigada por existir na minha vida. 🤍
+        </p>
+
+        <div id="love"
+             class="love hidden">
+
+          <span>
+            Eu te amo,
+          </span>
+
+          <strong>
+            Momô!
+          </strong>
+
+          <span class="love-heart">
+            ❤️
+          </span>
+
+        </div>
+
+        <div class="final-flowers">
+          🌸 🌷 🌺 🌷 🌸
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
